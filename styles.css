@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #0044cc;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+/* Styl dla div'a z klasą 'frame' */
+.frame {
+    border: 2px solid blue; /* Obramowanie o grubości 2px i kolorze niebieskim */
+    padding: 10px; /* Odstęp wewnętrzny (odległość między zawartością a obramowaniem) */
+    margin: 15px; /* Margines zewnętrzny (odstęp między elementem a innymi elementami) */
+    background-color: lightgray; /* Tło */
+    text-align: center; /* Wyśrodkowanie tekstu */
+}
+
+/* Styl dla div'a z klasą 'padding-example' */
+.padding-example {
+    border: 1px dashed green; /* Obramowanie w postaci przerywanej */
+    padding: 20px; /* Większy odstęp wewnętrzny */
+    background-color: #f0f0f0; /* Jasne tło */
+}
+
+/* Styl dla div'a z klasą 'border-example' */
+.border-example {
+    border: 3px solid red; /* Obramowanie grubości 3px i kolorze czerwonym */
+    padding: 5px; /* Mniejszy odstęp wewnętrzny */
+    background-color: #ffcccc; /* Jasnoczerwone tło */
+}
+
+/* Styl dla div'a z klasą 'margin-example' */
+.margin-example {
+    border: 2px solid purple; /* Obramowanie fioletowe */
+    margin: 30px; /* Większy margines */
+    background-color: #dcdcdc; /* Szare tło */
+}
+
+/* Wyróżnienie elementów z klasą 'highlight' */
+.highlight {
+    background-color: yellow; /* Tło na żółto */
+    color: green; /* Kolor tekstu na czarno */
+    padding: 5px; /* Margines wewnętrzny */
+    border: 1px solid black; /* Obramowanie */
+    text-align: center;
+}
+
+/* Wyróżnienie elementów z identyfikatorem 'highlight-id' */
+#highlight-id {
+    background-color: lightgreen; /* Tło na jasnozielono */
+    color: white; /* Kolor tekstu na czarno */
+    padding: 5px; /* Margines wewnętrzny */
+    border: 1px solid green; /* Obramowanie */
+}
+
+#menu-top, #menu-left {
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+
+#menu-top ul, #menu-left ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#menu-top ul {
+    display: flex;
+    justify-content: center;
+}
+
+#menu-top li, #menu-left li {
+    margin: 5px;
+}
+
+#menu-top a, #menu-left a {
+    text-decoration: none;
+    color: #333;
+    padding: 8px 12px;
+    border-radius: 4px;
+    display: inline-block;
+    background-color: #e7e7e7;
+}
+
+#menu-top a.active, #menu-left a.active {
+    background-color: #333;
+    color: white;
+}
+
+#menu-left {
+    float: left;
+    width: 20%;
+}
+
+main {
+    margin-left: 20%;
+    padding: 20px;
+}
+.responsive-img {
+    width: auto;
+    height: auto; /* Opcjonalnie, aby zachować proporcje */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed; /* Ustawienie pozycji na fixed */
+    bottom: 0; /* Przypięcie do dolnej krawędzi ekranu */
+    width: 100%; /* Szerokość stopki */
+}
+.link-form {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid blue; /* Kolor obramowania */
+    border-radius: 5px; /* Zaokrąglenie rogów */
+    text-decoration: none; /* Usunięcie podkreślenia */
+    color: blue; /* Kolor tekstu */
+    background-color: lightgray; /* Tło */
+    font-weight: bold; /* Pogrubienie tekstu */
+    transition: background-color 0.3s, color 0.3s; /* Efekt przejścia */
+}
+
+.link-form:hover {
+    background-color: blue; /* Zmiana tła po najechaniu */
+    color: white; /* Zmiana koloru tekstu po najechaniu */
+}
